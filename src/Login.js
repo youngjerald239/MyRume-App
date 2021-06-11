@@ -12,13 +12,15 @@ function Login() {
 
     const signIn = () => {
         //Sign in...
-        auth.signInWithPopup(provider).then(result => {
-         dispatch ({
+        auth
+        .signInWithPopup(provider)
+        .then((result) => {
+         dispatch({
                 type: actionTypes.SET_USER,
                 user: result.user,
             })
 
-            // console.log(result);
+            console.log(result.user)
         })
         .catch((error) => alert(error.message));
     }

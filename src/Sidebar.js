@@ -12,7 +12,7 @@ import ExpandMoreRoundedIcon from '@material-ui/icons/ExpandMoreRounded';
 import {useStateValue} from "./StateProvider"
 
 function Sidebar() {
-    const [{user}, dispatch] = useStateValue()
+    const [{user}, dispatch] = useStateValue();
 
    return (
    <div className="sidebar">
