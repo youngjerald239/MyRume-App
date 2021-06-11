@@ -24,7 +24,7 @@
    border-radius: 999px;
 }
 
-.header__left img {
+.header__left > img {
     height: 40px;
 }
 

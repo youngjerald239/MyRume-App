@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import "./Header.css"
 import YoutubeSearchedForIcon from '@material-ui/icons/YoutubeSearchedFor';
 import HouseIcon from '@material-ui/icons/House';
