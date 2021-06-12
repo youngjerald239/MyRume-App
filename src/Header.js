@@ -21,7 +21,7 @@ function Header() {
 
     return (<div className="header">
                 <div className="header__left">
-                <img src="https://i.imgur.com/Udc7veD.jpg" alt=""/>
+                <img src="https://i.imgur.com/pTT1t3v.png" alt=""/>
                 <div className="header__input">
                     <YoutubeSearchedForIcon/>
                     <input placeholder='SEARCH RUMES' type="text"/>

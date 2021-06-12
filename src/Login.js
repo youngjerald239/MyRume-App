@@ -28,7 +28,7 @@ function Login() {
     return (
         <div className="login">
             <div className="login__logo">
-                <img src="https://i.imgur.com/Udc7veD.jpg" alt=""/>
+                <img src="https://i.imgur.com/pTT1t3v.png" alt=""/>
                 <h1>MyRume</h1>
             </div>
             <Button type="submit" onClick={signIn}>Sign In</Button>
